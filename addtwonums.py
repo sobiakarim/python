@@ -1,13 +1,13 @@
 n = int(input("Total elements of list: "))
 print(f"Enter {n} digits for list1: " )
-l1 = [int(input()) for _ in range(n)]
+list1 = [int(input()) for _ in range(n)]
 
 print(f"Enter {n} digits for list2: " )
-l2 = [int(input()) for _ in range(n)]
+list2 = [int(input()) for _ in range(n)]
 
-l3 = [0] * n
+list3 = [0] * n
 
 for i in range(n):
-    l3[i] = l1[i]+l2[i]
+    list3[i] = list1[i]+list2[i]
 
-print(f"List 3: {l3}")    
+print(f"List 3: {list3}")    
